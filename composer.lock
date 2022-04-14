@@ -2331,17 +2331,17 @@
         },
         {
             "name": "laravel/nova",
-            "version": "4.1.0",
+            "version": "4.2.1",
             "source": {
                 "type": "git",
                 "url": "git@github.com:laravel/nova.git",
-                "reference": "3e003e35adb6ad2924d5ad070271eb86b06c5f79"
+                "reference": "f33003b1991491165e8822680e9a827f33c279c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-3e003e35adb6ad2924d5ad070271eb86b06c5f79-zip-da7a11.zip",
-                "reference": "3e003e35adb6ad2924d5ad070271eb86b06c5f79",
-                "shasum": "29b99aefb1a48425efc07cd44a9c4a41dc9c271a"
+                "url": "https://nova.laravel.com/dist/laravel/nova/laravel-nova-f33003b1991491165e8822680e9a827f33c279c5-zip-383f38.zip",
+                "reference": "f33003b1991491165e8822680e9a827f33c279c5",
+                "shasum": "b6ec018f2dc660ef2f1a4b50b92bbab1d4aeb0af"
             },
             "require": {
                 "brick/money": "^0.5.0",
@@ -2360,6 +2360,7 @@
             },
             "require-dev": {
                 "laravel/nova-dusk-suite": "8.4.x-dev|9.4.x-dev",
+                "laravel/scout": "^9.4",
                 "mockery/mockery": "^1.4.4",
                 "nunomaduro/larastan": "^1.0.1|^2.0",
                 "orchestra/testbench-dusk": "^6.24|^7.0",
@@ -2430,9 +2431,9 @@
                 "laravel"
             ],
             "support": {
-                "source": "https://github.com/laravel/nova/tree/v4.1.0"
+                "source": "https://github.com/laravel/nova/tree/v4.2.1"
             },
-            "time": "2022-04-07T19:42:36+00:00"
+            "time": "2022-04-13T23:28:29+00:00"
         },
         {
             "name": "laravel/sanctum",
@@ -11988,5 +11989,5 @@
         "php": "^8.0"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
